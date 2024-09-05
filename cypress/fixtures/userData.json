@@ -1,0 +1,26 @@
+{
+    "signUpUserSuccess": {
+      "firstname": "Amanda",
+      "lastname": "Praga",
+      "username": "Apraga",
+      "password": "1234",
+      "confirmpassword": "1234"
+    },
+    
+    "userSuccess": {
+      "username": "Enid.Gorczany",
+      "password": "s3cret"
+    },
+  
+    "userFail": {
+      "username": "aaaa",
+      "password": "1111"
+    },
+
+    "searchTransaction": {
+      "searchname": "Estelle",
+      "amount": "0.3",
+      "note": "payment test"
+    }
+    
+}
