@@ -11,12 +11,6 @@ describe('Real World App', () => {
   
 
 const selectorsList = {
-  //SignUP
-  
-  
-  //Login
-  
-  homeTransationTopBar: ".MuiTabs-root",
   
 
   //Dados de Transação
@@ -163,19 +157,5 @@ it('Sign Up Fail Confirm Password', () => {
   cy.get('#confirmPassword-helper-text')
   cy.get(selectorsList.sectionTitleTopBar)
 })
-
-  it('Login Success', () => {
-    loginPage.accessLoginPage()
-    loginPage.loginWithUser(userData.userSuccess.username, userData.userSuccess.password)
-    
-  })
-
-  it('Login Fail', () => {
-    cy.visit('/')
-    cy.get(selectorsList.usernameField).type(userData.userFail.username)
-    cy.get(selectorsList.passwordField).type(userData.userFail.password)
-    cy.get(selectorsList.signInButton).click()
-    cy.get(selectorsList.wrongCredentialAlert)
-  })  
 
 })
