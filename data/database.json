@@ -76,37 +76,48 @@
       "modifiedAt": "2024-08-28T11:02:23.960Z"
     },
     {
-      "id": "oHOGUVF-K",
-      "uuid": "cb60c584-963e-4757-953d-dc7ea5121622",
+      "id": "boxnd4Go5",
+      "uuid": "79401ec4-7a58-4da3-bd45-f35390e50490",
       "firstName": "Amanda",
       "lastName": "Praga",
       "username": "Apraga",
-      "password": "$2a$10$EuBZx00D9pbh7RAx0LnkGu/wMPs3n8qJ.QNEoNBhgxoqQno0xiJUC",
+      "password": "$2a$10$Utb9jxKKB88K9TNFwCy7.OhiVcFYi5iPQPbK4Qh8QPJfOs6NrlZRC",
       "balance": 0,
-      "createdAt": "2024-09-05T23:06:47.857Z",
-      "modifiedAt": "2024-09-05T23:06:47.857Z"
+      "createdAt": "2024-09-16T23:53:39.987Z",
+      "modifiedAt": "2024-09-16T23:53:39.987Z"
     },
     {
-      "id": "Hu3eY-bG3",
-      "uuid": "26f70d5c-ceef-4f0c-b375-7526c0f02909",
-      "firstName": "Amanda",
-      "lastName": "Praga",
-      "username": "Apraga",
-      "password": "$2a$10$QwO4BOUS81C/IdvEmU4LKuW8W.4.AgYX8Y2PezOQg1XfMtr6IUAv6",
+      "id": "WgB8W3DyR",
+      "uuid": "c89c316b-d2b5-430f-9c67-155833d86caa",
+      "firstName": "qwer",
+      "lastName": "qwer",
+      "username": "asdf",
+      "password": "$2a$10$pxoabF8VNX23FTtAyvjxAutojm.aNEK5Te.U8rIlUY.mOJr3Yd.KG",
       "balance": 0,
-      "createdAt": "2024-09-05T23:34:27.367Z",
-      "modifiedAt": "2024-09-05T23:34:27.367Z"
+      "createdAt": "2024-09-16T23:54:36.606Z",
+      "modifiedAt": "2024-09-16T23:54:36.606Z"
     },
     {
-      "id": "EZFScmD20",
-      "uuid": "503fa8e8-9ab1-46b9-8f1b-ba3cff25dddd",
+      "id": "gonmfAJTM",
+      "uuid": "d3f7f444-21ed-465c-9956-a2c0a089d0cc",
       "firstName": "Amanda",
       "lastName": "Praga",
       "username": "Apraga",
-      "password": "$2a$10$pJop9tlDZuAxCOo0c7Pos.Md5CWGTly3uEKObpq/4aC3HcDgAXTWC",
+      "password": "$2a$10$7MlJI3rhPbnFeJOffWn.LubIFLwZqKKEVY.0ekQosxRHtFjVo07C2",
       "balance": 0,
-      "createdAt": "2024-09-05T23:48:59.940Z",
-      "modifiedAt": "2024-09-05T23:48:59.940Z"
+      "createdAt": "2024-09-17T02:05:47.347Z",
+      "modifiedAt": "2024-09-17T02:05:47.347Z"
+    },
+    {
+      "id": "CX2PvdVeV",
+      "uuid": "4234e8aa-34f0-4c50-8e79-8e62b40f6b2e",
+      "firstName": "Amanda",
+      "lastName": "Praga",
+      "username": "Apraga",
+      "password": "$2a$10$HdEscAsmt87fPx5Je5QMG.r0O5SYAoo/rjfiMJdSgQbVaB2u07dmO",
+      "balance": 0,
+      "createdAt": "2024-09-17T02:06:04.319Z",
+      "modifiedAt": "2024-09-17T02:06:04.319Z"
     }
   ],
   "contacts": [

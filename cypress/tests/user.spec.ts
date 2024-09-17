@@ -2,10 +2,13 @@ import { use } from 'chai'
 import userData from '../fixtures/userData.json'
 import LoginPage from '../pages/loginPage'
 import SignUpPage from '../pages/signUpPage'
+import HomePage from '../pages/homePage'
+import MenuPage from '../pages/menuPage'
 
 const loginPage = new LoginPage()
-
 const signUpPage = new SignUpPage()
+const homePage = new HomePage()
+const menuPage = new MenuPage()
 
 describe('Real World App', () => {
   
@@ -77,15 +80,9 @@ it.only('Sign Up Success', () => {
 
   signUpPage.accessLoginPage()
   signUpPage.signUpNewUser(userData.signUpUserSuccess.firstname, userData.signUpUserSuccess.lastname, userData.signUpUserSuccess.username, userData.signUpUserSuccess.password, userData.signUpUserSuccess.confirmpassword )
-  //cy.visit('/')
-  //cy.get(selectorsList.signUpOption).click()
-  //cy.get(selectorsList.sectionTitleTopBar)
-  //cy.get(selectorsList.signUpFirstnameField).type(userData.signUpUserSuccess.firstname)
-  //cy.get(selectorsList.signUpUserLastnameField).type(userData.signUpUserSuccess.lastname)
-  //cy.get(selectorsList.signUpUsernameField).type(userData.signUpUserSuccess.username)
-  //cy.get(selectorsList.signUpPasswordField).type(userData.signUpUserSuccess.password)
-  //cy.get(selectorsList.signUpConfirmPassField).type(userData.signUpUserSuccess.confirmpassword)
-  //cy.get(selectorsList.signInButton).click() 
+  
+  menuPage.accessHome()
+
 })
 
 it('Sign Up Fail First Name', () => {

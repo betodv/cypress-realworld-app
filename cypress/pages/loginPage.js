@@ -13,7 +13,7 @@ class LoginPage {
     }
 
     accessLoginPage() {
-        cy.visit('/')
+        cy.visit('/signin')
     }
 
     loginWithUser(username, password) {
