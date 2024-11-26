@@ -24,7 +24,7 @@ describe('Login Real World App', () => {
 
   })
 
-  it.only('Sign Up Fail Last Name', () => {
+  it('Sign Up Fail Last Name', () => {
 
     loginPage.accessLoginPage()
     signUpPage.signUpFailLastName(userData.signUpUserSuccess.firstname, userData.signUpUserSuccess.username, userData.signUpUserSuccess.password, userData.signUpUserSuccess.confirmpassword)
